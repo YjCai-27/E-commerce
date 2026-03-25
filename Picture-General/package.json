@@ -1,0 +1,15 @@
+{
+  "name": "ecommerce-image-generator",
+  "version": "1.0.0",
+  "description": "电商图片提示词生成 + 豆包API图片生成",
+  "main": "image-generator.js",
+  "scripts": {
+    "generate": "node image-generator.js"
+  },
+  "keywords": ["ecommerce", "image-generation", "doubao", "ai"],
+  "dependencies": {
+    "dotenv": "^16.4.7"
+  },
+  "author": "",
+  "license": "MIT"
+}
