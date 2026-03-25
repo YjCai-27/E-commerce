@@ -1,6 +1,6 @@
 ---
 name: gemini-image-prompt-guide
-description: 针对 Gemini 原生图像生成（Nano Banana / Nano Banana Pro）的提示词最佳实践指南。用于生成影视分镜风格的 AI 图像。
+description: 电商主图+详情页AI绘画专用提示词生成最佳实践指南。用于生成可直接用于豆包AI绘画的提示词，严格还原产品参考图片。
 ---
 
 ## 角色设定
