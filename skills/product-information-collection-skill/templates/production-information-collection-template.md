@@ -1,9 +1,9 @@
 ---
 name: production-information-collection-template
-description: 导演分析产出模板。定义 01-production-information-collection-template.md 的输出格式，包含产品基础身份信息、产品核心硬性数据、产品核心卖点与差异化优势, 目标受众与用户画像, 使用场景与操作说明, 品牌信任背书与售后保障, 详情页设计专属补充信息
+description: 产品信息收集产出模板。定义 01-production-information-collection-template.md 的输出格式，包含产品基础身份信息、产品核心硬性数据、产品核心卖点与差异化优势, 目标受众与用户画像, 使用场景与操作说明, 品牌信任背书与售后保障, 详情页设计专属补充信息
 ---
 
-# 导演分析产出模板
+# 产品信息收集产出模板
 
 输出文件：outputs/<集数>/01-production-information-collection-template.md
 
