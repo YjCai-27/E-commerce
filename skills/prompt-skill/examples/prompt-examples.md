@@ -1,6 +1,6 @@
 ---
 name: character-prompt-examples
-description: 人物设定提示词的高质量参考示例。用于指导服化道 Agent 编写角色设定图提示词时的质量标准和写法风格。
+description: 电商详情提示词案例，用于指导电商详情图提示词生成。
 ---
 
 # 电商详情提示词示例
