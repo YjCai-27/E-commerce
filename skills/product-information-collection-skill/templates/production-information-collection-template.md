@@ -5,7 +5,7 @@ description: 产品信息收集产出模板。定义 01-production-information-c
 
 # 产品信息收集产出模板
 
-输出文件：outputs/<集数>/01-production-information-collection-template.md
+输出文件：outputs/01-production-information-collection-template.md
 
 ---
 
