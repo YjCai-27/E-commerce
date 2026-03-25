@@ -3,7 +3,7 @@ name: art-design-template
 description: 美学设计产出模板。定义人物提示词和场景道具提示词的输出格式，分两个文件保存，跨集累积。
 ---
 
-# 服化道设计产出模板
+# 美学设计产出模板
 
 输出文件（跨集累积，追加式写入）：
 - assets/designer.md — 详情页设计
