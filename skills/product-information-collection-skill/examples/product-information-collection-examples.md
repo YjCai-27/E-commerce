@@ -1,6 +1,6 @@
 ---
 name: product-information-collection-examples
-description: 【产品全维度识别报告】示例。用于指导服化道 Agent 编写角色设定图提示词时的质量标准和写法风格。
+description: 【产品全维度识别报告】示例。用于指导信息采集 Agent 编写角色设定图提示词时的质量标准和写法风格。
 ---
 
 # 【产品全维度识别报告】示例
