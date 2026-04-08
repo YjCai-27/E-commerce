@@ -1,0 +1,13 @@
+langgraph
+langchain-openai
+langchain-anthropic
+python-dotenv
+fpdf2
+pandas
+numpy
+tavily-python
+requests
+openai
+langchain-core
+langchain-community
+streamlit

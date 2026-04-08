@@ -1,0 +1,23 @@
+# 确保补丁在最开始就生效
+import sys
+import json
+import anthropic._utils._json
+
+original_openapi_dumps = anthropic._utils._json.openapi_dumps
+
+def fixed_openapi_dumps(obj):
+    # 递归清理所有字符串
+    def clean_obj(o):
+        if isinstance(o, str):
+            return o.encode('utf-8', 'ignore').decode('utf-8')
+        elif isinstance(o, dict):
+            return {clean_obj(k): clean_obj(v) for k, v in o.items()}
+        elif isinstance(o, list):
+            return [clean_obj(i) for i in o]
+        else:
+            return o
+
+    cleaned_obj = clean_obj(obj)
+    return json.dumps(cleaned_obj)
+
+anthropic._utils._json.openapi_dumps = fixed_openapi_dumps
